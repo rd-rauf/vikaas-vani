@@ -1,0 +1,126 @@
+body {
+    font-family: "Trebuchet MS";
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.p-container{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.profile-card {
+    border-radius:10px;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.edit-container{
+    margin-top:450px;
+    width:50%;
+    height:800px;
+    /* margin-top:200px; */
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 2%;
+    /* overflow: hidden; */
+    margin-left: 25px;
+}
+
+.profile-card, .edit-profile {
+    padding: 18px;
+}
+
+
+
+.t-box {
+    display: flex;
+    margin: 0px 4px;
+    border: 1px solid #ffffffa1;
+    border-radius: 2px;
+    background-color: #87868617;
+}
+
+.profile-card img.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-card h2 {
+    margin: 10px 0 5px;
+    font-size: 1.5em;
+}
+
+.profile-card .upload-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 12px;
+    background-color: #cdf197;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-card .upload-info {
+    font-size: 0.8em;
+    color: #b1b0b0;
+}
+
+.edit-profile {
+    flex: 1;
+    padding: 20px 40px;
+}
+
+.edit-profile h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.edit-profile .form-group {
+    margin-bottom: 15px;
+}
+
+.edit-profile .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.edit-profile .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.edit-profile .form-group.social-profile input {
+    margin-bottom: 10px;
+}
+
+.edit-profile .update-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

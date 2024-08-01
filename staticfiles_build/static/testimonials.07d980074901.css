@@ -1,0 +1,82 @@
+*{
+    font-family:'Trebuchet MS';
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item {
+    flex: 1 0 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.c-card {
+    padding: 40px;
+    text-align: center;
+}
+
+.c-card-title {
+    font-size: 18px;
+    color: #333;
+}
+
+.c-client-name {
+    font-size: 22px;
+    color: darkcyan;
+}
+
+.c-client-description {
+    font-size: 16px;
+    color: #777;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-arrow {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.carousel-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: darkcyan;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: darkslategrey;
+}

@@ -1,0 +1,21 @@
+{
+  "builds": [
+    {
+      "src": "ibmproject/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "/staticfiles_build/static/$1",
+      "headers": {
+        "Cache-Control": "max-age=31536000"
+      }
+    },
+    {
+      "src": "/(.*)",
+      "dest": "ibmproject/wsgi.py"
+    }
+  ]
+}
