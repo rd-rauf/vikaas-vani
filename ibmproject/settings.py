@@ -32,7 +32,7 @@ STATIC_URL = '/static/'
 # if os.getenv('VERCEL'):
 #     DEBUG = False
 DEBUG = False
-ALLOWED_HOSTS = ['vikaas-vani-dhknldzgf-arraufs-projects.vercel.app']
+ALLOWED_HOSTS = ['vikaas-vani.vercel.app']
 # ALLOWED_HOSTS = []
 # '.vercel.app'
 #     
