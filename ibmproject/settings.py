@@ -31,9 +31,9 @@ STATIC_ROOT = BASE_DIR / 'staticfiles_build' / 'static'
 STATIC_URL = '/static/'
 # if os.getenv('VERCEL'):
 #     DEBUG = False
-DEBUG = True
-# ALLOWED_HOSTS = ['.vercel.app','vikas-vaani-rj8d.vercel.app','vikas-vaani-rj8d-3jrit206f-syntax-squads-projects-94a8e6dd.vercel.app','vikas-vaani-rj8d-jgnlxyqym-syntax-squads-projects-94a8e6dd.vercel.app']
-ALLOWED_HOSTS = []
+DEBUG = False
+ALLOWED_HOSTS = ['.vercel.app','vikaas-vani-dhknldzgf-arraufs-projects.vercel.app','vikas-vaani-rj8d.vercel.app','vikas-vaani-rj8d-3jrit206f-syntax-squads-projects-94a8e6dd.vercel.app','vikas-vaani-rj8d-jgnlxyqym-syntax-squads-projects-94a8e6dd.vercel.app']
+# ALLOWED_HOSTS = []
 # '.vercel.app'
 #     
 
